@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Information about film</title>
+</head>
+<body>
+<p id="demo"></p>
+
+<script>
+    let xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if (this.readyState === 4 && this.status === 200) {
+            myFunction(this);
+        }
+    };
+    xhttp.open("GET", "CatalogForFilmsSecond.xml", true);
+    xhttp.send();
+
+    function myFunction(xml) {
+        var xmlDoc = xml.responseXML;
+
+        var y = xmlDoc.getElementsByTagName("movie_studio");
+        var yLen = y.length;
+        var txt = "";
+
+        for(let i = 0; i < yLen; i++) {
+            txt += "<b>Име на студио и описание:</b> " + xmlDoc.getElementsByTagName("short_description")[i].childNodes[0].nodeValue + "<br><br>" +
+                "<b>Основание:</b> " + xmlDoc.getElementsByTagName("foundation")[i].childNodes[0].nodeValue + "<br><br>" +
+                "<b>Седалище: </b>" + xmlDoc.getElementsByTagName("headquarters")[i].childNodes[0].nodeValue + "<br><br>" +
+                "<b>Продукти:</b> " + xmlDoc.getElementsByTagName("products")[i].childNodes[0].nodeValue + "<br><br>" +
+                "<b>Уебсайт:</b> " + xmlDoc.getElementsByTagName("website")[i].childNodes[0].nodeValue + "<br><br><br><br>";
+        }
+
+        var xx = xmlDoc.getElementsByTagName("actors");
+        var xxLen = xx.length;
+        var secondTxt = "";
+
+        for(let m = 0; m <= xxLen; m++)
+        {
+            secondTxt += xmlDoc.getElementsByTagName("actor")[m].childNodes[0].nodeValue + " ";
+        }
+
+        var x = xmlDoc.getElementsByTagName("movie");
+        var xLen = x.length;
+
+        for(let i = 0; i < xLen; i++)
+        {
+            txt += "<b>Име на филм:</b> " + xmlDoc.getElementsByTagName("title_movie")[i].childNodes[0].nodeValue + "<br><br>" +
+                "<b>Времетраене:</b> " + xmlDoc.getElementsByTagName("duration")[i].childNodes[0].nodeValue + "<br><br>" +
+                "<b>Жанр:</b> " + xmlDoc.getElementsByTagName("genre")[i].childNodes[0].nodeValue + "<br><br>" +
+                "<b>Година на издаване:</b> " + xmlDoc.getElementsByTagName("year_of_issue")[i].childNodes[0].nodeValue + "<br><br>" +
+                "<b>Държава:</b> " + xmlDoc.getElementsByTagName("country")[i].childNodes[0].nodeValue + "<br><br>" +
+                "<b>Филмово студио:</b> " + xmlDoc.getElementsByTagName("movie_studioMovie")[i].childNodes[0].nodeValue + "<br><br>" +
+                "<b>Рейтинг в IMDB:</b> " + xmlDoc.getElementsByTagName("imdb_rating")[i].childNodes[0].nodeValue + "<br><br>" +
+                "<b>Резюме:</b> " + xmlDoc.getElementsByTagName("summary")[i].childNodes[0].nodeValue + "<br><br>" +
+                "<b>Режисьор:</b> " + xmlDoc.getElementsByTagName("director")[i].childNodes[0].nodeValue + "<br><br>" +
+                "<b>Актьори: </b>" + secondTxt +
+                "<br><br>" + "<b>Бюджет:</b> " + xmlDoc.getElementsByTagName("budget")[i].childNodes[0].nodeValue + "<br><br><br><br>";
+        }
+
+        document.getElementById("demo").innerHTML = txt;
+    }
+</script>
+</body>
+</html>

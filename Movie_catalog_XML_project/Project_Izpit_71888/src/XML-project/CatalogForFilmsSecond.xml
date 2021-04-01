@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="TransformToTextMovies.xsl"?>
+<!DOCTYPE catalog_for_movies SYSTEM "CatalogForFilms.dtd">
+
+<catalog_for_movies>
+
+    <movie_studios>
+
+        <movie_studio studioID="columbiaPict">
+            <foundation century = "20th">1918</foundation>
+            <headquarters>Кълвър Сити, САЩ</headquarters>
+            <products>Филми</products>
+            <website>www.sonypictures.com</website>
+            <short_description>„Кълъмбия Пикчърс“ е американско филмово студио, подразделение на „Сони Пикчърс Ентъртейнмънт“,
+                което е от своя страна е собственост на „Сони“. То е едно от шестте най-големи студия в света заедно с Парамаунт, Уорнър Брос,
+                Фокс, Уолт Дисни Пикчърс и Юнивърсъл. Централата на компанията се намира в Кълвър Сити.
+                Създадено е през 1918 година, в резултат на започнало в края на 20-те години успешно сътрудничество с режисьора Франк Капра,
+                студиото се превръща в едно от водещите в Холивуд. През 1982 година то е купено от компанията „Кока-Кола“, а след период на
+                самостоятелност през 1987 – 1989 година – от японския конгломерат „Сони“.
+            </short_description>
+        </movie_studio>
+
+        <movie_studio studioID="20thCen">
+            <foundation century="20th">1935</foundation>
+            <headquarters>Лос Анджелис, САЩ</headquarters>
+            <number_employees>2300</number_employees>
+            <products>Кино и телевизия</products>
+            <website>www.20thcenturystudios.com</website>
+            <short_description>Туентиът Сенчъри Студиос е американска филмова компания, собственост на Уолт Дисни Студиос, което е подразделение на Уолт Дисни Къмпани.
+                В периода 1935-2020 г. компанията е известна като Туентиът Сенчъри Фокс, а през януари 2020 г. „Дисни“ променя името на Туентиът Сенчъри Студиос.
+                Основана е през 1935 при сливането на компаниите Fox Film Corporation и Twentieth Century Pictures. Освен с производство на собствени филми, студиото се занимава и с разпространение на филми на по-малки независими компании.
+            </short_description>
+        </movie_studio>
+
+    </movie_studios>
+
+    <movies>
+
+        <movie unifier="theGodFather">
+            <title_movie lang="en">Кръстникът</title_movie>
+            <duration>175 минути</duration>
+            <genre>Драма, Криминален</genre>
+            <year_of_issue century = "20th">1972</year_of_issue>
+            <country>САЩ</country>
+            <movie_studioMovie studioID="columbiaPict">Кълъмбия Пикчърс</movie_studioMovie>
+            <imdb_rating>9.1</imdb_rating>
+            <summary>Франсис Форд Копола представя сагата за фамилията Корлеоне с Марлон Брандов ролята на Кръстника Дон Вито. Копола рисува смразяващата картина на
+                възхода на една сицилианска фамилия, на загубата на властта и влиянието и в Америка, както и предаването им от баща на син. Копола майсторски балансира
+                сцените от семейния живот и отвратителния престъпен бизнес, в който са въвлечени членовете на семейството. Заснет по романа-бестселър на Марио Пузо,
+                този брилянтен филм получи през 1972г. “Оскар” за най-добър филм.</summary>
+            <director>Франсис Форд</director>
+            <actors>
+                <actor>Алфредо Джеймс Пачино</actor>
+                <actor>Марлон Брендо</actor>
+                <actor>Джеймс Кан</actor>
+            </actors>
+            <budget currency="US dollar">7 милиона</budget>
+        </movie>
+
+        <movie unifier="fightClub">
+            <title_movie lang="en">Боен клуб</title_movie>
+            <duration>139 минути</duration>
+            <genre>Драма, Криминален</genre>
+            <year_of_issue century="20th">1999</year_of_issue>
+            <country>САЩ</country>
+            <movie_studioMovie studioID="20thCen">Туентиът Сенчъри Студиос</movie_studioMovie>
+            <imdb_rating>8.8</imdb_rating>
+            <summary>Няколко години по-късно цялата този период приключва "със гръм". "Боен клуб" сваля шапка на своите предшественици ("Забриски пойнт", "Споразумението" на Елия Казан,
+                "Ангелско сърце" на Алън Паркър), но се позовава само на "Форест гъмп", именно защото той е символът на края на епохата "Форест гъмп".</summary>
+            <director>Дейвид Финчър</director>
+            <actors>
+                <actor>Брад Пит</actor>
+                <actor>Хелена Бонам Картър</actor>
+            </actors>
+            <budget currency="US dollar">63 милиона</budget>
+        </movie>
+
+    </movies>
+
+</catalog_for_movies>

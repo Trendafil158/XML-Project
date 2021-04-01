@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE catalog_for_movies SYSTEM "CatalogForFilms.dtd">
+
+<catalog_for_movies>
+
+    <movie_studios>
+
+        <movie_studio studioID="newLineCin">
+            <foundation century = "20th">1967</foundation>
+            <founder>Робърт Шайе</founder>
+            <headquarters>Бърбанк, Калифорния</headquarters>
+            <products>Филми, видеоигри</products>
+            <website>www.newlinecinema.com</website>
+            <short_description>New Line Productions, търгуваща като New Line Cinema, е американско студио за
+                филмова продукция и лейбъл на подразделението Warner Bros. Pictures Group на Warner Bros. Entertainment. Основана е
+                през 1967 г. от Робърт Шайе като независима компания за разпространение на филми, която по-късно се превръща във
+                филмово студио. Той е придобит от Turner Broadcasting System през 1994 г. По-късно Търнър се слива с Time Warner
+                през 1996 г., а New Line е обединен с Warner Bros. Pictures през 2008 г.  New Line продължава да разпространява
+                своите филми, макар и като част от Warner Bros. Pictures, а не като отделна медийна компания наред с последната.
+            </short_description>
+        </movie_studio>
+
+        <movie_studio studioID="mgm">
+            <foundation century="20th">1924</foundation>
+            <headquarters>Лос Анджелис, САЩ</headquarters>
+            <number_employees>1440</number_employees>
+            <products>Филми</products>
+            <website>www.mgm.com</website>
+            <short_description>Metro-Goldwyn-Mayerе американска компания, занимаваща се главно с производство и разпространение на филми и телевизионни сериали. От 1924 до 1942 г. е безспорният лидер в холивудската киноиндустрия.
+                От 2005 г. собственик на компанията е Sony Pictures Entertainment. С това MGM става фактически сателит на Columbia Pictures, „перлата“ в короната на Sony.
+                През ноември 2010 г. MGM съобщава, че е подала молба за съдебна защита от кредитори, което е равносилно на обявяване на фалит. Още през следващия месец обаче MGM заявява, че излиза от банкрута и даже съвместно с Columbia работи над филма „Zookeeper“.
+            </short_description>
+        </movie_studio>
+
+    </movie_studios>
+
+    <movies>
+
+        <movie unifier="seven">
+            <title_movie lang="en">Седем</title_movie>
+            <duration>127 минути</duration>
+            <genre>Драма, Криминален, Мистерия</genre>
+            <year_of_issue century = "20th">1995</year_of_issue>
+            <country>САЩ</country>
+            <movie_studioMovie studioID="newLineCin">New Line Cinema</movie_studioMovie>
+            <imdb_rating>8.6</imdb_rating>
+            <summary>Основата на филма е разследване на серия кървави убийства. Всяко от убийствата наказва жертвите за определени смъртни грехове. В Библията са описани седем такива гряха.
+                За да спрат веригата от маниакални убийства, започват разследване ветеранът от нюйорската полиция (Морган Фрийман) и неговият млад и енергичен партньор (Брад Пит).</summary>
+            <director>Дейвид Финчър</director>
+            <actors>
+                <actor>Морган Фрийман</actor>
+                <actor>Брад Пит</actor>
+                <actor>Гуинет Полтроу</actor>
+            </actors>
+            <budget currency="US dollar">33 милиона</budget>
+        </movie>
+
+        <movie unifier="silenceOfLambs">
+            <title_movie lang="en">Мълчанието на агнетата</title_movie>
+            <duration>118 минути</duration>
+            <genre>Драма, Криминален, Трилър</genre>
+            <year_of_issue century="20th">1991</year_of_issue>
+            <country>САЩ</country>
+            <movie_studioMovie studioID="mgm">Метро-Голдуин-Майер</movie_studioMovie>
+            <imdb_rating>8.6</imdb_rating>
+            <summary>Психопат с псевдоним Бъфало Бил отвлича и убива млади жени в средния запад. ФБР агентът Кларис Старлинг (Фостър) получава задача да разговаря със затворник,
+                чрез който да се опита да разбере как мисли убиеца. Затворникът е психиатърът Д-р Ханибал Лектър (Хопкинс), изключително умен и опасен канибал, който се
+                съгласява да помогне на Кларис само при едно условие – да разбере всички подробности от личния й живот.</summary>
+            <director>Джонатан Деми</director>
+            <actors>
+                <actor>Джоди Фостър</actor>
+                <actor>Антъни Хопкинс</actor>
+            </actors>
+            <budget currency="US dollar">27 милиона</budget>
+        </movie>
+
+    </movies>
+
+</catalog_for_movies>

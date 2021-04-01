@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE catalog_for_movies SYSTEM "CatalogForFilms.dtd">
+
+<catalog_for_movies>
+
+    <movie_studios>
+
+        <movie_studio studioID="warnerBros">
+            <foundation century = "20th">1918</foundation>
+            <headquarters>Бърбанк, Калифорния</headquarters>
+            <owner>Тайм Уорнър</owner>
+            <products>Филми, комикси</products>
+            <website>www.wanerbros.com</website>
+            <short_description>„Уорнър брадърс“ или само „Уорнър Брос.“ е американска развлекателна компания, базирана в град Бърбанк, щата Калифорния, САЩ.
+                Тя е сред най-големите компании за производство на филми и телевизионни предавания. Понастоящем е дъщерна компания на конгломерата Тайм Уорнър, с главна квартира в Бърбанк, Калифорния, САЩ.
+                Компанията се управлява от Бари Майер, председател на съвета на директорите. Други ключови фигури са Алън Хорн и Едуард Романо.
+            </short_description>
+        </movie_studio>
+
+    </movie_studios>
+
+    <movies>
+
+        <movie unifier="theBlackKnight">
+            <title_movie lang="en">Черният рицар</title_movie>
+            <duration>152 минути</duration>
+            <genre>Екшън, Драма, Криминален</genre>
+            <year_of_issue century = "21th">2004</year_of_issue>
+            <country>САЩ, Великобритания</country>
+            <movie_studioMovie studioID="warnerBros">Уорнър Брадърс</movie_studioMovie>
+            <imdb_rating>9.0</imdb_rating>
+            <summary>В продължението на „Батман в началото" качулатият герой вдига залога в борбата с криминалния контингент. С помощта на лейтенант Джим Гордън и прокурора
+                Харви Дент той смята да изчисти улиците от престъпността, тровеща града.Отначало сътрудничеството им се оказва ефективно, но скоро настава пълен хаос –
+                появил се е нов гений на злото, известен сред ужасеното население под името Джокер. Това се оказа и последната роля на Хийт Леджър. В някои медии се появиха мнения,
+                че изтощението от пълното себеотдаване на актьора е една от причините за нелепата му смърт.</summary>
+            <director>Кристофър Нолан</director>
+            <actors>
+                <actor>Крисчън Бейл</actor>
+                <actor>Маги Гилеенхал</actor>
+                <actor>Майкъл Кейн</actor>
+                <actor>Гари Олдман</actor>
+            </actors>
+            <budget currency="US dollar">185 милиона</budget>
+        </movie>
+
+        <movie unifier="inception">
+            <title_movie lang="en">Генезис</title_movie>
+            <duration>148 минути</duration>
+            <genre>Екшън, Приключенски, Научна фантастика</genre>
+            <year_of_issue century="21th">2010</year_of_issue>
+            <country>САЩ, Великобритания</country>
+            <movie_studioMovie studioID="warnerBros">Уорнър Брадърс</movie_studioMovie>
+            <imdb_rating>8.7</imdb_rating>
+            <summary>Дом Коб е опитен крадец, несъмнено най-добрият в опасното изкуство на извличане-крадене на ценни тайни от дълбокото подсъзнание в състояние на сън,
+                когато мозъкът е най-уязвим. Необичайната способност на Коб го е направила много търсен в този коварен нов свят на корпоративен шпионаж, но го е превърнала в беглец,
+                взимайки му всичко, което е обичал.Сега на Коб му се предлага шанс за спасение.</summary>
+            <director>Кристофър Нолан</director>
+            <actors>
+                <actor>Леонардо ди Каприо</actor>
+                <actor>Марион Котияр</actor>
+            </actors>
+            <budget currency="US dollar">160 милиона</budget>
+        </movie>
+
+    </movies>
+
+</catalog_for_movies>

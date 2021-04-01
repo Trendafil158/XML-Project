@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE catalog_for_movies SYSTEM "CatalogForFilms.dtd">
+
+<catalog_for_movies>
+
+    <movie_studios>
+        <movie_studio studioID="paramountPict">
+            <foundation century = "20th">1912</foundation>
+            <headquarters>Лос Анджелис, САЩ</headquarters>
+            <products>Филми, комикси</products>
+            <annual_income currency = "US dollar">6 900 000 000</annual_income>
+            <website>www.paramount.com</website>
+            <short_description>„Парамаунт Пикчърс“ е американска филмова компания, чиято централа се намира в Холивуд, САЩ.
+                Компанията е основана май 1912 г. в Калифорния. Част е от мултимедийния концерн „Виаком“.</short_description>
+        </movie_studio>
+    </movie_studios>
+
+    <movies>
+        <movie unifier="forrestGump">
+            <title_movie lang="en">Форест Гъмп</title_movie>
+            <duration>142 минути</duration>
+            <genre>Драма, Романтика</genre>
+            <year_of_issue century = "20th">1994</year_of_issue>
+            <country>САЩ</country>
+            <movie_studioMovie studioID="paramountPict">Парамаунт Пикчърс</movie_studioMovie>
+            <imdb_rating>8.8</imdb_rating>
+            <summary>Филмът разказва историята на едно момче наречено Форест Гъмп, играно от Том Ханкс, което далеч не е интелигентно, но е присъствало на повечето важни моменти в
+                Американската история. Филма ни показва, че не трябва да си задължително интелигентен за да успееш в живота. Всичко, което ти трябва е любов. Незабравим филм,
+                който всеки трябва да гледа.</summary>
+            <director>Робърт Земекис</director>
+            <actors>
+                <actor>Том Ханкс</actor>
+                <actor>Сали Фийлд</actor>
+                <actor>Гари Синийс</actor>
+            </actors>
+            <budget currency="US dollar">55 милиона</budget>
+        </movie>
+
+        <movie unifier="interstellar">
+            <title_movie lang="en">Интерстелар</title_movie>
+            <duration>169 минути</duration>
+            <genre>Драма, Приключенски, Научна фантастика</genre>
+            <year_of_issue century="21th">2014</year_of_issue>
+            <country>САЩ, Великобритания, Канада</country>
+            <movie_studioMovie studioID="paramountPict">Парамаунт Пикчърс</movie_studioMovie>
+            <imdb_rating>8.5</imdb_rating>
+            <summary>Интерстелар“ е най-монументалната творба на Кристофър Нолан до момента, а всеки, гледал „Генезис“, знае колко далече се простира въображението му.
+                Сред сценаристите и продуцентите на филма е знаменитият физик Кип Торн, а първият зрител на „Интерстелар“ е бил Стивън Хокинг, който е дал пълното си одобрение.
+                Защото това не е просто фантастика. Филмът е максимално достоверен от научна гледна точка и показаното в него е базирано на трудове на Торн и колегите му, които са
+                доказали на теория много от сложните и напълно невероятни явления в „Интерстелар“. Гледан като една вероятна прогноза, филмът е още по-въздействащ.</summary>
+            <director>Кристофър Нолан</director>
+            <actors>
+                <actor>Майкъл Кейн</actor>
+                <actor>Ан Хатауей</actor>
+            </actors>
+            <budget currency="US dollar">165 милиона</budget>
+        </movie>
+
+    </movies>
+
+</catalog_for_movies>

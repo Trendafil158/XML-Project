@@ -1,0 +1,93 @@
+.imageFirst, .imageSecond {
+    width: 310px;
+    margin-left: 8px;
+    margin-top: 20px;
+}
+
+.header-head {
+    font-size: 19px;
+}
+
+.headingCatalog {
+    background: wheat;
+    height: 65px;
+}
+
+.titleCatalog {
+    margin-left: 40%;
+    font-size: 35px;
+}
+
+.divInFirstMovie {
+    margin-left: 335px;
+    margin-top: -404px;
+
+}
+
+.divInSecondMovie {
+    margin-left: 335px;
+    margin-top: -180px;
+}
+
+.divInThirdMovie {
+    margin-left: 335px;
+    margin-top: -430px;
+}
+
+.divInForthMovie {
+    margin-left: 335px;
+    margin-top: -480px;
+}
+
+.divInFifthMovie {
+    margin-left: 335px;
+    margin-top: -375px;
+}
+
+.divInSixthMovie {
+    margin-left: 335px;
+    margin-top: -480px;
+}
+
+.divInSeventhMovie {
+    margin-left: 335px;
+    margin-top: -490px;
+}
+
+.divInEighthMovie {
+    margin-left: 335px;
+    margin-top: -430px;
+}
+
+.divInNinthMovie {
+    margin-left: 335px;
+    margin-top: -440px;
+}
+
+.divInTenthMovie {
+    margin-left: 335px;
+    margin-top: -460px;
+}
+
+.divMovie {
+    background: wheat;
+    padding-bottom: 25px;
+    margin-top: 10px;
+}
+
+.firstDownloadingFilm {
+    background: navajowhite;
+    text-align: center;
+    margin-left: 17%;
+    margin-top: -80px;
+    height: 30px;
+}
+
+.firstInfoMovieStudio {
+    border: none;
+    text-align: center;
+    background: wheat;
+    color: brown;
+    margin-left: 17%;
+    margin-top: -95px;
+}

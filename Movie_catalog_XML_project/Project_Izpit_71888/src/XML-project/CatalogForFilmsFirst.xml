@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="VisualizeCatalogForFilmsFirst.xsl"?>
+<!DOCTYPE catalog_for_movies SYSTEM "CatalogForFilms.dtd">
+
+<catalog_for_movies>
+
+    <movie_studios>
+
+        <movie_studio studioID="CRE">
+            <foundation century = "20th">1987</foundation>
+            <founder>Мартин Шафър</founder>
+            <products>Кинофилми</products>
+            <website>www.castle_rock_entertainment.com</website>
+            <short_description>Castle Rock Entertainment е американска филмова и телевизионна продуцентска компания,
+                основана през 1987 г. от Мартин Шафър, режисьор Роб Рейнер , Андрю Шайнман , Глен Падник и Алън Хорн . Той е филиал на
+                Warner Bros. , подразделение на AT и T е WarnerMedia.</short_description>
+        </movie_studio>
+    </movie_studios>
+
+    <movies>
+
+        <movie unifier = "shawshank">
+            <title_movie lang = "en">Изкуплението Шоушенк</title_movie>
+            <duration>142 минути</duration>
+            <genre>Драма</genre>
+            <year_of_issue century = "20th">1994</year_of_issue>
+            <country>САЩ</country>
+            <movie_studioMovie studioID = "CRE">Castle Rock Entertainment</movie_studioMovie>
+            <imdb_rating>9.4</imdb_rating>
+            <summary>40-те г. на 20 век. Анди Дюфрен е млад проспериращ банкер, чийто живот се променя драматично, когато е обвинен в убийството на жена си
+                и нейният любовник и е осъден на доживотен затвор...Куражът на Анди и приятелството му с черноборсаджията на затвора „Ред” Рединг ще му помогнат
+                да запази надеждата си жива. Това не е филм за отчаянието и самотата. Не е филм за изолацията. Това е филм за възкресените надежди, за приятелството,
+                за мечтите и куражът на един мъж.</summary>
+            <director>Франк Дарабонт</director>
+            <actors>
+                <actor>Тим Робинс</actor>
+                <actor>Морган Фрийман</actor>
+                <actor>Боб Гънтън</actor>
+            </actors>
+            <budget currency = "US dollar">25 милиона</budget>
+        </movie>
+
+        <movie unifier="greenRoad">
+            <title_movie lang="en">Зеленият път</title_movie>
+            <duration>189 минути</duration>
+            <genre>Драма, Криминален, Фентъзи</genre>
+            <year_of_issue century="20th">1999</year_of_issue>
+            <country>САЩ</country>
+            <movie_studioMovie studioID="CRE">Castle Rock Entertainment</movie_studioMovie>
+            <imdb_rating>8.5</imdb_rating>
+            <summary>През 1935 г. обитателите на затвора “Колд Маунтийн” кръщават пътеката към ешафода “Зеленият път” заради цвета на линолеума, с който е постлана.
+                Пол Еджкомб (Том Ханкс) е главен надзирател в затвора, когато пристига нов осъден - Джон Кофи (Майкъл Кларк Дънкан) е обвинен в садистичното убийство на две малки момиченца.
+                Въпреки огромният му ръст и ужасяващите престъпления, заради които е затворен, Кофи изглежда добър човек, който се държи по-скоро като невинно дете, отколкото като
+                закоравял бандит.</summary>
+            <director>Франк Дарабонт</director>
+            <actors>
+                <actor>Том Ханкс</actor>
+                <actor>Бони Хънт</actor>
+                <actor>Джеймс Кромуел</actor>
+            </actors>
+            <budget currency="US dollar">60 милиона</budget>
+        </movie>
+
+    </movies>
+
+</catalog_for_movies>

@@ -1,0 +1,54 @@
+<?xml encoding="UTF-8"?>
+
+        <!ELEMENT catalog_for_movies (movie_studios,movies)>
+        <!ELEMENT movie_studios (movie_studio)+>
+        <!ELEMENT movies (movie)+>
+        <!ELEMENT movie_studio (foundation,founder?,headquarters,(number_employees|owner)?,products,annual_income?,website,
+                short_description)>
+        <!ATTLIST movie_studio
+                xmlns CDATA #FIXED ''
+                studioID  #REQUIRED>
+        <!ELEMENT movie (title_movie,duration,genre,year_of_issue,country,movie_studioMovie,imdb_rating,summary,director,actors,
+                budget)>
+        <!ATTLIST movie
+                xmlns CDATA #FIXED ''
+                unifier  #REQUIRED>
+        <!ELEMENT foundation (#PCDATA)>
+        <!ATTLIST foundation
+                xmlns CDATA #FIXED ''
+                century  #REQUIRED>
+        <!ELEMENT founder (#PCDATA)>
+        <!ELEMENT headquarters (#PCDATA)>
+        <!ELEMENT number_employees (#PCDATA)>
+        <!ELEMENT owner (#PCDATA)>
+        <!ELEMENT products (#PCDATA)>
+        <!ELEMENT annual_income (#PCDATA)>
+        <!ATTLIST annual_income
+                xmlns CDATA #FIXED ''
+                currency CDATA #REQUIRED>
+        <!ELEMENT website (#PCDATA)>
+        <!ELEMENT short_description (#PCDATA)>
+        <!ELEMENT title_movie (#PCDATA)>
+        <!ATTLIST title_movie
+                xmlns CDATA #FIXED ''
+                lang  #REQUIRED>
+        <!ELEMENT duration (#PCDATA)>
+        <!ELEMENT genre (#PCDATA)>
+        <!ELEMENT year_of_issue (#PCDATA)>
+        <!ATTLIST year_of_issue
+                xmlns CDATA #FIXED ''
+                century  #REQUIRED>
+        <!ELEMENT country (#PCDATA)>
+        <!ELEMENT movie_studioMovie (#PCDATA)>
+        <!ATTLIST movie_studioMovie
+                xmlns CDATA #FIXED ''
+                studioID  #REQUIRED>
+        <!ELEMENT imdb_rating (#PCDATA)>
+        <!ELEMENT summary (#PCDATA)>
+        <!ELEMENT director (#PCDATA)>
+        <!ELEMENT actors (actor)+>
+        <!ELEMENT budget (#PCDATA)>
+        <!ATTLIST budget
+                xmlns CDATA #FIXED ''
+                currency CDATA #REQUIRED>
+        <!ELEMENT actor (#PCDATA)>
